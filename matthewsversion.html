@@ -9,8 +9,10 @@ reformat this css, its so ugly
   <head>
 
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="stylesheet" href="/Users/kira/Desktop/Matthews Team/matthews version.css">
+    <link rel="stylesheet" href="/Users/kira/Desktop/MatthewsTeam/matthewsversion.css">
     <meta charset="UTF-8">
+    <button onclick="loadDoc()">Click me</button>
+
     <p> The Winds of Winter </p>
   </head>
 
@@ -25,7 +27,7 @@ reformat this css, its so ugly
 
 <header class="row">
   <img id="trainer-pic" class="col 1" src="stephen-stone.png">
-<br><br><br>
+<br><br>e<br>
        <h1>
 Trainer: Matt/Moonlight/? <br>
 FC: 3454-2631-6854 <br>
@@ -69,13 +71,13 @@ Region: NA
         <tbody>
           <tr class="api-stats">
             <td id="metagross-name">Metagross</td>
-            <td id="metagross-hp">80</td>
-            <td id="metagross-attack">135</td>
-            <td id="metagross-spattack">95</td>
-            <td id="metagross-defense">130</td>
-            <td id="metagross-spdefense">90</td>
-            <td id="metagross-speed">70</td>
-            <td id="metagross-abilities">Clear Body</td>
+            <td id="metagross-hp"></td>
+            <td id="metagross-attack"></td>
+            <td id="metagross-spattack"></td>
+            <td id="metagross-defense"></td>
+            <td id="metagross-spdefense"></td>
+            <td id="metagross-speed"></td>
+            <td id="metagross-abilities"></td>
 
           </tr>
             </tbody>
@@ -132,14 +134,14 @@ Region: NA
 
         <tbody>
           <tr class="api-stats">
-            <td id="serperior-name">Serperior</td>
-            <td id="serperior-hp">75</td>
-            <td id="serperior-attack">75</td>
-            <td id="serperior-spattack">75</td>
-            <td id="serperior-defense">95</td>
-            <td id="serperior-spdefense">95</td>
-            <td id="serperior-speed">113</td>
-            <td id="serperior-abilities">Contrary</td>
+            <td id="serperior-name"></td>
+            <td id="serperior-hp"></td>
+            <td id="serperior-attack"></td>
+            <td id="serperior-spattack"></td>
+            <td id="serperior-defense"></td>
+            <td id="serperior-spdefense"></td>
+            <td id="serperior-speed"></td>
+            <td id="serperior-abilities"></td>
 
           </tr>
             </tbody>
@@ -189,14 +191,14 @@ Region: NA
 
         <tbody>
           <tr class="api-stats">
-            <td id="ninetales-name">Ninetales</td>
-            <td id="ninetales-hp">73</td>
-            <td id="ninetales-attack">67</td>
-            <td id="ninetales-spattack">75</td>
-            <td id="ninetales-defense">81</td>
-            <td id="ninetales-spdefense">100</td>
-            <td id="ninetales-speed">109</td>
-            <td id="ninetales-abilities">Snow Warning</td>
+            <td id="ninetales-name"></td>
+            <td id="ninetales-hp"></td>
+            <td id="ninetales-attack"></td>
+            <td id="ninetales-spattack"></td>
+            <td id="ninetales-defense"></td>
+            <td id="ninetales-spdefense"></td>
+            <td id="ninetales-speed"></td>
+            <td id="ninetales-abilities"></td>
 
           </tr>
 
@@ -223,18 +225,20 @@ Region: NA
             <p>-It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.
             </p>
             <p>- Taken from https://pokemondb.net/pokedex/ninetales/</p>
-            <ol>
-<!-- <ul>Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.</ul>
+          </div>
+
+<!--
+<ol>
+<ul>Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.</ul>
 <br>
 <ul>Ninetales casts a sinister light from its bright red eyes to gain total control over its foe’s mind. This Pokémon is said to live for a thousand years.</ul>
 <br>
-<ul>It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.</ul> -->
-      </ol>
-        </div>
-
+<ul>It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.</ul>
+</ol>
+-->
 <div>
-
 </div>
+
 </details>
         </div>
 </section>
@@ -242,9 +246,19 @@ Region: NA
 
 
 </main>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<!-- function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", #url.txt", true);
+  xhttp.send();
+} -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script type="text/javascript" src="matthews version.js"></script>
+<script type="text/javascript" src="reorganize.js"></script>
 </body>
 </html>
 

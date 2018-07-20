@@ -122,11 +122,11 @@ details:hover {
   font-family: fantasy; , cursive;
   font-size: 1.2em; }
 
-#pointing-down-pic {
+/* #pointing-down-pic {
   animation: bounce 8s infinite, fadeIn 13s forwards; }
 
 #pointing-down-pic:hover {
-  cursor: pointer; }
+  cursor: pointer; } */
 
 @keyframes fadeIn {
   0% {
@@ -147,3 +147,5 @@ details:hover {
     transform: translateY(-30px); } }
 
 /* # sourceMappingURL=main.css.map */
+/* */
+<!-- -->
