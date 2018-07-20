@@ -11,7 +11,7 @@ reformat this css, its so ugly
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="/Users/kira/Desktop/MatthewsTeam/matthewsversion.css">
     <meta charset="UTF-8">
-    <button onclick="loadDoc()">Click me</button>
+
 
     <p> The Winds of Winter </p>
   </head>
@@ -27,7 +27,7 @@ reformat this css, its so ugly
 
 <header class="row">
   <img id="trainer-pic" class="col 1" src="stephen-stone.png">
-<br><br>e<br>
+<br><br><br>
        <h1>
 Trainer: Matt/Moonlight/? <br>
 FC: 3454-2631-6854 <br>
@@ -52,6 +52,7 @@ Region: NA
 <div class="reds-pokemon"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"></div>
 <div class="reds-pokemon"><img src="https://img.pokemondb.net/artwork/ninetales-alolan.jpg"></div> -->
 <section class="row" id="metagross">
+  <button onclick="loadMetagross()">Metagross</button>
     <figure class="col s3" ><img src="metagrosstest.png" style="height:350px;width:350px">
     </figure>
   <table class="col s7 offset-s1" >
@@ -60,8 +61,8 @@ Region: NA
               <th>Name</th>
               <th>HP</th>
               <th>Attack</th>
-              <th>Spattack</th>
               <th>Defense</th>
+              <th>Spattack</th>
               <th>Spdefense</th>
               <th>Speed</th>
               <th>Abilities</th>
@@ -70,7 +71,7 @@ Region: NA
 
         <tbody>
           <tr class="api-stats">
-            <td id="metagross-name">Metagross</td>
+            <td id="metagross-name"></td>
             <td id="metagross-hp"></td>
             <td id="metagross-attack"></td>
             <td id="metagross-spattack"></td>
@@ -116,6 +117,8 @@ Region: NA
 
 <!-- Serperior -->
 <section class="row" id="serperior">
+  <button onclick="loadSerperior()">Serperior</button>
+
     <figure class="col s3"><img src="serperiortest.png" style="height:350px;width:350px"></figure>
 
   <table class="col s7 offset-s1" >
@@ -124,8 +127,8 @@ Region: NA
             <th>Name</th>
             <th>HP</th>
             <th>Attack</th>
-            <th>Spattack</th>
             <th>Defense</th>
+            <th>Spattack</th>
             <th>Spdefense</th>
             <th>Speed</th>
             <th>Abilities</th>
@@ -174,6 +177,7 @@ Region: NA
 
 <!-- ninetales(Alolan) -->
 <section class="row" id="ninetales">
+  <button onclick="loadNinetales()">Ninetales</button>
     <figure class="col s3"><img src="ninetalesalola.png" style="height:350px;width:350px"></figure>
   <table class="col s7 offset-s1" >
         <thead>
@@ -181,8 +185,8 @@ Region: NA
             <th>Name</th>
             <th>HP</th>
             <th>Attack</th>
-            <th>Spattack</th>
             <th>Defense</th>
+            <th>Spattack</th>
             <th>Spdefense</th>
             <th>Speed</th>
             <th>Abilities</th>
