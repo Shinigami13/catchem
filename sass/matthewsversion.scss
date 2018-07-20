@@ -1,12 +1,27 @@
-/* define things specificlly
-and use sas to specificly define */
+$ff: 'fantasy';
+$ninetailesColor: #90d6e5;
 
-li a {
-  display: block;
-  color: grey;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+$metagrossColor: #417791;
+
+
+$serperiorColor: #008647;
+
+
+
+#metagross {
+  background-color: $metagrossColor;
+}
+
+
+li {
+  list-style-type: none;
+  a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 }
 
 .cookie {
@@ -17,22 +32,7 @@ li a {
       overflow: hidden;
       background-color: #333;
 }
-/* ul {
 
-li a:hover {
-background-color: red;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-} */
 
 body {
   margin: 0;
@@ -77,14 +77,14 @@ header h5 {
   /* padding-bottom: 4%; */
   height: 73vh;
   background-color: #417791;
-  background-image: ; }
+  }
 
 #serperior {
   font-size: 1.2em;
   padding-top: 4%;
   background-color: #008647;
-  background-image:
-  height: 73vh; }
+  height: 73vh;
+}
 
 #ninetales {
   font-size: 1.2em;
@@ -108,7 +108,7 @@ header h5 {
   margin-left: 6%; }
 
 details {
-  font-family: fantasy; ,;
+  font-family: fantasy;
   font-size: 1.2em; }
 
 .pokeFax {
@@ -119,14 +119,9 @@ details:hover {
   cursor: pointer; }
 
 .api-stats {
-  font-family: fantasy; , cursive;
+  font-family: fantasy;
   font-size: 1.2em; }
 
-/* #pointing-down-pic {
-  animation: bounce 8s infinite, fadeIn 13s forwards; }
-
-#pointing-down-pic:hover {
-  cursor: pointer; } */
 
 @keyframes fadeIn {
   0% {
@@ -145,7 +140,3 @@ details:hover {
     transform: translateY(0); }
   40%, 70% {
     transform: translateY(-30px); } }
-
-/* # sourceMappingURL=main.css.map */
-/* */
-<!-- -->
