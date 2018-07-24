@@ -13,24 +13,25 @@ reformat this css, its so ugly
     <meta charset="UTF-8">
 
 
-    <p> The Winds of Winter </p>
   </head>
 
 
 <body>
+  <div class="navbar">
   <ul>
     <li><a class="cookie" href="#home">Home</a></li>
     <li><a class="cookie" href="#fc">Friend Code</a></li>
-    <li><a class="cookie" href="#team">Team</a></li>
+    <li><a class="cookie" href="#metagross">Team</a></li>
   </ul>
+</div>
 <main>
 
 <header class="row">
-  <img id="trainer-pic" class="col 1" src="stephen-stone.png">
+  <img id="trainer-pic" class="col 1" src="images/stephen-stone.png">
 <br><br><br>
        <h1>
 Trainer: Matt/Moonlight/? <br>
-FC: 3454-2631-6854 <br>
+<span id="fc">FC: 3454-2631-6854</span> <br>
 Region: NA
  </h1>
        <style>
@@ -43,17 +44,17 @@ Region: NA
     <h3 class="center-align"></h3>
         <br><br>
     <h5 class="center-align"></h5>
-        <!-- <a href="#metagross"> <img href="#metagross" id="pointing-down-pic" src="pointingdown.png"></a> -->
+        <!-- <a href="#metagross"> <img href=images/"#metagross" id="pointing-down-pic" src="pointingdown.png"></a> -->
 </div>
 </header>
 
 <!-- Metagross -->
-<!-- <div class="reds-pokemon"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"></div>
-<div class="reds-pokemon"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"></div>
-<div class="reds-pokemon"><img src="https://img.pokemondb.net/artwork/ninetales-alolan.jpg"></div> -->
+<!-- <div class="reds-pokemon"><img src="images/https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"></div>
+<div class="reds-pokemon"><img src="images/https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"></div>
+<div class="reds-pokemon"><img src="images/https://img.pokemimages/ondb.net/artwork/ninetales-alolan.jpg"></div> -->
 <section class="row" id="metagross">
-  <button onclick="loadMetagross()">Metagross</button>
-    <figure class="col s3" ><img src="metagrosstest.png" style="height:350px;width:350px">
+  <button onclick="loadMetagross()">Load Stats</button>
+    <figure class="col s3" ><img src="images/metagrosstest.png" style="height:350px;width:350px">
     </figure>
   <table class="col s7 offset-s1" >
         <thead>
@@ -117,9 +118,9 @@ Region: NA
 
 <!-- Serperior -->
 <section class="row" id="serperior">
-  <button onclick="loadSerperior()">Serperior</button>
+  <button onclick="loadSerperior()">Load Stats</button>
 
-    <figure class="col s3"><img src="serperiortest.png" style="height:350px;width:350px"></figure>
+    <figure class="col s3"><img src="images/serperiortest.png" style="height:350px;width:350px"></figure>
 
   <table class="col s7 offset-s1" >
         <thead>
@@ -177,8 +178,8 @@ Region: NA
 
 <!-- ninetales(Alolan) -->
 <section class="row" id="ninetales">
-  <button onclick="loadNinetales()">Ninetales</button>
-    <figure class="col s3"><img src="ninetalesalola.png" style="height:350px;width:350px"></figure>
+  <button onclick="loadNinetales()">Load Stats</button>
+    <figure class="col s3"><img src="images/NinetalesAlola.png" style="height:350px;width:350px"></figure>
   <table class="col s7 offset-s1" >
         <thead>
           <tr>
