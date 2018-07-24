@@ -1,32 +1,22 @@
-#metagross {
-  background-color: #90d6e5; }
-
 li {
   list-style-type: none; }
-  li a {
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; }
 
-.cookie {
-  background-color: red;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333; }
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: fantasy; }
-
-#trainer-pic {
-  animation: fadeIn;
-  animation-duration: 1s;
-  padding: 2% 4% 2% 4%; }
+  font-family: "fantasy";
+  background-color: #dfdfdf; }
 
 header {
   background-color: #dfdfdf;
@@ -35,7 +25,7 @@ header {
 header h1 {
   animation-duration: 1.3s;
   animation-name: fadeInAndScale;
-  font-family: fantasy;
+  font-family: "fantasy";
   font-size: 4.2em; }
 
 header h3 {
@@ -44,7 +34,7 @@ header h3 {
   animation-duration: .6s;
   animation-delay: 2.8s;
   animation-fill-mode: forwards;
-  font-family: fantasy; }
+  font-family: "fantasy"; }
 
 header h5 {
   opacity: 0;
@@ -52,7 +42,27 @@ header h5 {
   animation-duration: .6s;
   animation-delay: 3.2s;
   animation-fill-mode: forwards;
-  font-family: fantasy; }
+  font-family: "fantasy"; }
+
+details {
+  font-family: "fantasy";
+  font-size: 1.2em;
+  overflow: auto; }
+
+details:hover {
+  cursor: pointer; }
+
+#trainer-pic {
+  animation: fadeIn;
+  animation-duration: 1s;
+  padding: 2% 4% 2% 4%; }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
 
 #metagross {
   font-size: 1.2em;
@@ -61,11 +71,19 @@ header h5 {
   height: 73vh;
   background-color: #417791; }
 
+#metagross-facts {
+  padding-top: 2%;
+  margin-left: 6%; }
+
 #serperior {
   font-size: 1.2em;
   padding-top: 4%;
   background-color: #008647;
   height: 73vh; }
+
+#serperior-facts {
+  padding-top: 2%;
+  margin-left: 6%; }
 
 #ninetales {
   font-size: 1.2em;
@@ -73,34 +91,19 @@ header h5 {
   background-color: #90d6e5;
   height: 73vh; }
 
-.row {
-  margin-bottom: 0; }
-
-#metagross-facts {
-  padding-top: 2%;
-  margin-left: 6%; }
-
-#serperior-facts {
-  padding-top: 2%;
-  margin-left: 6%; }
-
 #ninetales-facts {
   padding-top: 2%;
   margin-left: 6%; }
 
-details {
-  font-family: fantasy;
-  font-size: 1.2em; }
-
 .pokeFax {
-  font-family: fantasy;
+  font-family: "fantasy";
   font-size: .8em; }
 
-details:hover {
-  cursor: pointer; }
+.row {
+  margin-bottom: 0; }
 
 .api-stats {
-  font-family: fantasy;
+  font-family: "fantasy";
   font-size: 1.2em; }
 
 @keyframes fadeIn {
@@ -120,5 +123,6 @@ details:hover {
     transform: translateY(0); }
   40%, 70% {
     transform: translateY(-30px); } }
-
 /*# sourceMappingURL=matthewsversion.css.map */
+
+/*# sourceMappingURL=main.css.map */

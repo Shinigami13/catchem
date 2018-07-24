@@ -9,27 +9,27 @@ reformat this css, its so ugly
   <head>
 
     <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="stylesheet" href="css/matthewsversion.css">
+    <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
+<title>Matthew's Pokedex</title>
 
 
-    <p> The Winds of Winter </p>
   </head>
 
 
 <body>
   <ul>
-    <li><a class="cookie" href="#home">Home</a></li>
-    <li><a class="cookie" href="#fc">Friend Code</a></li>
-    <li><a class="cookie" href="#team">Team</a></li>
+    <li><a class="nav" href="#home">Home</a></li>
+    <li><a class="nav" href="#fc">Friend Code</a></li>
+    <li><a class="nav" href="#metagross">Team</a></li>
   </ul>
 <main>
 
 <header class="row">
-  <img id="trainer-pic" class="col 1" src="stephen-stone.png">
+  <img id="trainer-pic" class="col 1" src="images/stephen-stone.png">
 <br><br><br>
        <h1>
-Trainer: Matt/Moonlight/? <br>
+Trainer: Matt/Moonlight/Trainer "X" <br>
 FC: 3454-2631-6854 <br>
 Region: NA
  </h1>
@@ -52,8 +52,8 @@ Region: NA
 <div class="reds-pokemon"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"></div>
 <div class="reds-pokemon"><img src="https://img.pokemondb.net/artwork/ninetales-alolan.jpg"></div> -->
 <section class="row" id="metagross">
-  <button onclick="loadMetagross()">Metagross</button>
-    <figure class="col s3" ><img src="metagrosstest.png" style="height:350px;width:350px">
+  <button onclick="loadMetagross()">Load Stats</button>
+    <figure class="col s3" ><img src="images/metagrosstest.png" style="height:350px;width:350px">
     </figure>
   <table class="col s7 offset-s1" >
         <thead>
@@ -117,9 +117,9 @@ Region: NA
 
 <!-- Serperior -->
 <section class="row" id="serperior">
-  <button onclick="loadSerperior()">Serperior</button>
+  <button onclick="loadSerperior()">Load Stats</button>
 
-    <figure class="col s3"><img src="serperiortest.png" style="height:350px;width:350px"></figure>
+    <figure class="col s3"><img src="images/serperiortest.png" style="height:350px;width:350px"></figure>
 
   <table class="col s7 offset-s1" >
         <thead>
@@ -177,8 +177,8 @@ Region: NA
 
 <!-- ninetales(Alolan) -->
 <section class="row" id="ninetales">
-  <button onclick="loadNinetales()">Ninetales</button>
-    <figure class="col s3"><img src="ninetalesalola.png" style="height:350px;width:350px"></figure>
+  <button onclick="loadNinetales()">Load Stats</button>
+    <figure class="col s3"><img src="images/NinetalesAlola.png" style="height:350px;width:350px"></figure>
   <table class="col s7 offset-s1" >
         <thead>
           <tr>
@@ -260,7 +260,7 @@ Region: NA
   xhttp.send();
 } -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script type="text/javascript" src="reorganize.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
 
